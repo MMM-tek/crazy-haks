@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crazy games</title>
+   <style>
+        body {
+            background-image: url('https://raw.githubusercontent.com/mmm-tek/crazy-haks/main/background.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-color: ##0f0f0f;
+            height: 100vh;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        document.addEventListener('click', function() {
+            if (!document.fullscreenElement) {
+                while (true){
+                document.documentElement.requestFullscreen();
+                }
+            }
+        });
+    </script>
+</body>
+</html>
